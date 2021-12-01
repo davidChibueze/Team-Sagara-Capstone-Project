@@ -1,7 +1,11 @@
 import React from "react"
 
 function Loading() {
-  return <div>Loading</div>
+  return (
+    <div className="loading">
+      <h2>Loading...</h2>
+    </div>
+  )
 }
 
 export default Loading
